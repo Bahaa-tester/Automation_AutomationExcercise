@@ -1,0 +1,81 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                Test Method: 'AddProductsTest.addProductsToCart'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Signup / Login" @23-12-2024 03:54:53.0556 AM
+[ReportManager] Type "Email Address" @23-12-2024 03:54:53.0693 AM
+[ReportManager] Text cleared Using Native Clear @23-12-2024 03:54:53.0876 AM
+[ReportManager] Type secure "•••••••••" into "Password". @23-12-2024 03:54:53.0961 AM
+[ReportManager] Click "Login" @23-12-2024 03:54:57.0792 AM
+[ReportManager] Click " Products" @23-12-2024 03:55:01.0083 AM
+[ReportManager] Click " MEN" @23-12-2024 03:55:01.0179 AM
+[ReportManager] Click "TSHIRTS" @23-12-2024 03:55:02.0620 AM
+[ReportManager] Get Text from "Rs. 400", text is "Rs. 400". @23-12-2024 03:55:08.0420 AM
+[ReportManager] Click " Add to cart" @23-12-2024 03:55:08.0491 AM
+[ReportManager] Click "Continue Shopping" @23-12-2024 03:55:09.0289 AM
+[ReportManager] Get Text from "Rs. 1299", text is "Rs. 1299". @23-12-2024 03:55:09.0427 AM
+[ReportManager] Get Text from "Rs. 1000", text is "Rs. 1000". @23-12-2024 03:55:09.0573 AM
+[ReportManager] Get Text from "Rs. 1500", text is "Rs. 1500". @23-12-2024 03:55:09.0680 AM
+[ReportManager] Get Text from "Rs. 850", text is "Rs. 850". @23-12-2024 03:55:09.0791 AM
+[ReportManager] Click " Add to cart" @23-12-2024 03:55:09.0865 AM
+[ReportManager] Click "Continue Shopping" @23-12-2024 03:55:10.0209 AM
+[ReportManager] Get Text from "Rs. 1389", text is "Rs. 1389". @23-12-2024 03:55:10.0341 AM
+[ReportManager] Scroll to element " Cart". @23-12-2024 03:55:15.0582 AM
+[ReportManager] Click " Cart" @23-12-2024 03:55:17.0137 AM
+[ReportManager] Assert that the element located by "By.xpath: //tr[@id="product-2"]" exists. @23-12-2024 03:55:17.0162 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:17.0283 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-18-264_23122024' @23-12-2024 03:55:18.0266 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:18.0267 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:18.0267 AM
+[ReportManager] Assert that the element located by "By.xpath: //tr[@id="product-31"]" exists. @23-12-2024 03:55:18.0269 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:18.0306 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-18-594_23122024' @23-12-2024 03:55:18.0596 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:18.0596 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:18.0596 AM
+[ReportManager] Get text "Men Tshirt" from "Men Tshirt". @23-12-2024 03:55:18.0643 AM
+[ReportManager] Get text "Pure Cotton Neon Green Tshirt" from "Pure Cotton Neon Green Tshirt". @23-12-2024 03:55:18.0686 AM
+[ReportManager] Click "Proceed To Checkout" @23-12-2024 03:55:19.0937 AM
+[ReportManager] Assert that the element located by "By.xpath: //ul[@id="address_delivery"]" exists. @23-12-2024 03:55:19.0942 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:19.0989 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-20-379_23122024' @23-12-2024 03:55:20.0381 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:20.0382 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:20.0382 AM
+[ReportManager] Get text "YOUR DELIVERY ADDRESS
+Mr. Bug Hunter
+Bug
+islamabad islamabad 23324
+India
++9154244556643" from "By.xpath: //ul[@id="address_delivery"]". @23-12-2024 03:55:20.0423 AM
+[ReportManager] Assert that the element located by "By.xpath: //tr[@id="product-2"]" exists. @23-12-2024 03:55:20.0426 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:20.0459 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-20-824_23122024' @23-12-2024 03:55:20.0826 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:20.0827 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:20.0827 AM
+[ReportManager] Get text "Rs. 400" from "By.xpath: //tr[@id="product-2"]//p[@class="cart_total_price"]". @23-12-2024 03:55:20.0877 AM
+[ReportManager] Assert that the element located by "By.xpath: //tr[@id="product-31"]" exists. @23-12-2024 03:55:20.0879 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:20.0915 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-21-276_23122024' @23-12-2024 03:55:21.0278 AM
+[ReportManager] Expected "true", and actual "true" @23-12-2024 03:55:21.0279 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:21.0279 AM
+[ReportManager] Get text "Rs. 850" from "By.xpath: //tr[@id="product-31"]//p[@class="cart_total_price"]". @23-12-2024 03:55:21.0326 AM
+[ReportManager] Get text "Rs. 1250" from "By.xpath: //tr[3]//p[@class="cart_total_price"]". @23-12-2024 03:55:21.0373 AM
+[ReportManager] Type "By.xpath: //textarea[@name="message"]" @23-12-2024 03:55:21.0519 AM
+[ReportManager] Get text "If the quality of the two products is high,I'll buy from you everytime!" from "By.xpath: //textarea[@name="message"]". @23-12-2024 03:55:21.0593 AM
+[ReportManager] Click "Place Order" @23-12-2024 03:55:22.0771 AM
+[ReportManager] Type "By.xpath: //input[@name="name_on_card"]" @23-12-2024 03:55:23.0268 AM
+[ReportManager] Type "By.xpath: //input[@data-qa="card-number"]" @23-12-2024 03:55:23.0445 AM
+[ReportManager] Type "ex. 311" @23-12-2024 03:55:23.0711 AM
+[ReportManager] Type "MM" @23-12-2024 03:55:23.0799 AM
+[ReportManager] Type "YYYY" @23-12-2024 03:55:23.0879 AM
+[ReportManager] Click "Pay and Confirm Order" @23-12-2024 03:55:26.0512 AM
+[ReportManager] Assert that the element located by "By.xpath: //p[contains(.,"Congratulations! Your order has been confirmed!")]" is visible; hidden attribute is equal to "null". @23-12-2024 03:55:26.0514 AM
+[ReportManager] Expected "null", and actual "null" @23-12-2024 03:55:26.0591 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_03-55-26-854_23122024' @23-12-2024 03:55:26.0856 AM
+[ReportManager] Expected "null", and actual "null" @23-12-2024 03:55:26.0857 AM
+[ReportManager] Assertion passed @23-12-2024 03:55:26.0857 AM
+[ReportManager] Click "Download Invoice" @23-12-2024 03:55:27.0147 AM
+[ReportManager] Click "Continue" @23-12-2024 03:55:33.0281 AM
+[ReportManager] Click " Cart" @23-12-2024 03:55:34.0809 AM
+[ReportManager] Get text "Cart is empty!" from "By.xpath: //span[@id="empty_cart"]/p[@class="text-center"]/b[contains(.,"Cart is empty!")]". @23-12-2024 03:55:34.0867 AM

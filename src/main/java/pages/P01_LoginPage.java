@@ -1,6 +1,7 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class P01_LoginPage {
@@ -17,7 +18,8 @@ public class P01_LoginPage {
 
 
     // Methods
-    public P02_HomePage login (String emailAddress, String password){
+    @Step("Login With A Valid Email-Address And Password")
+    public P02_HomePage loginSteps (String emailAddress, String password){
                 driver.element().click(loginPage)
                 .type(emailAddressTextField,emailAddress)
                 .typeSecure(passwordTextField,password)

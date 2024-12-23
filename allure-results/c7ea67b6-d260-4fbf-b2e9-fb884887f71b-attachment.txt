@@ -1,0 +1,14 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @23-12-2024 03:54:33.0995 AM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.0". @23-12-2024 03:54:34.0229 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\ALma3aly\IdeaProje..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @23-12-2024 03:54:34.0776 AM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @23-12-2024 03:54:34.0873 AM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @23-12-2024 03:54:34.0874 AM
+[ReportManager] Successfully Opened: "Windows | Chrome". @23-12-2024 03:54:38.0880 AM
+[ReportManager] Target URL: "https://www.automationexercise.com/" @23-12-2024 03:54:38.0910 AM
+[ReportManager] Initial URL: "about:blank" @23-12-2024 03:54:38.0940 AM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @23-12-2024 03:54:50.0591 AM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/testDataExcel.xlsx]. @23-12-2024 03:54:51.0682 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/testDataExcel.xlsx". @23-12-2024 03:54:51.0684 AM
+[ReportManager] Successfully created attachment 'Test Data - Excel' @23-12-2024 03:54:51.0687 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/testDataPayment.json". @23-12-2024 03:54:51.0692 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @23-12-2024 03:54:51.0694 AM
