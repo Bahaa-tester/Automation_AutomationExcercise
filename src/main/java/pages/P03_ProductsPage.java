@@ -16,10 +16,10 @@ public class P03_ProductsPage {
     By menToggleMenu = By.xpath("//a[@data-toggle=\"collapse\"][@href=\"#Men\"]");
 
     By tshirtsTab = By.xpath("//ul//li//a[@href=\"/category_products/3\"][contains(.,\"Tshirts\")]");
-    By allShownProducts = By.xpath("//div[@class=\"col-sm-9 padding-right\"]//div[@class=\"features_items\"]");
+    //By allShownProducts = By.xpath("//div[@class=\"col-sm-9 padding-right\"]//div[@class=\"features_items\"]");
     By continueShoppingButton = By.xpath("//button[@class=\"btn btn-success close-modal btn-block\"][contains(.,\"Continue Shopping\")]");
 
-    By subScription = By.xpath("//div[@class=\"single-widget\"][contains(.,\"Subscription\")]");
+    //By subScription = By.xpath("//div[@class=\"single-widget\"][contains(.,\"Subscription\")]");
     By viewCartPage = By.xpath("//li/a[@href=\"/view_cart\"][contains(.,\"Cart\")]");
 
     // Methods
@@ -75,4 +75,4 @@ public class P03_ProductsPage {
         driver.element().scrollToElement(viewCartPage).click(viewCartPage);
         return new P04_ViewCartPage(driver);
     }
-    }
+}

@@ -43,7 +43,9 @@ public class AddProductsTest {
                           ,testDataPayment.getTestData("expirationYear"))
                   .navigateToHomePage()
                   .openTheViewCartPage()
-                  .verifyThatTheCartIsEmpty();
+                  .verifyThatTheCartIsEmpty()
+                  .navigateToTheHomePage()
+                  .logOut();
 
     }
 
