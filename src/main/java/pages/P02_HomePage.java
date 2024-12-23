@@ -8,7 +8,7 @@ public class P02_HomePage {
     SHAFT.GUI.WebDriver driver;
     public P02_HomePage (SHAFT.GUI.WebDriver driver){this.driver = driver;}
 
-    // Locator
+    // Locators
     By productsPage = By.xpath("//a[@href=\"/products\"]");
     By viewCartPage = By.xpath("//li/a[@href=\"/view_cart\"][contains(.,\"Cart\")]");
     By logoutPageButton = By.xpath("//li[4]//a[@href=\"/logout\"]//i[@class=\"fa fa-lock\"]");
